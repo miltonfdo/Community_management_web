@@ -21,12 +21,15 @@ This project is created on Python 3.10.2
  make sure to navigate to community_project folder(cd .\community_project)
  The first time we setup the project run the below commands
  > python manage.py migrate
+
+ 
  > python manage.py runserver
 
 
 ## Test user detatils
 To create user for login ,run below command and answer questions
 > python manage.py createsuperuser
+> 
 username- testuser
 password - Passw0rd@01
 
